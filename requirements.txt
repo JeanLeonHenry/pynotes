@@ -1,0 +1,9 @@
+-e .
+pandas>=1.5
+pandera
+pytest
+tqdm
+pdfkit
+odfpy
+openpyxl
+Jinja2>=3.1.2

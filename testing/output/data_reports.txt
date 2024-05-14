@@ -1,0 +1,65 @@
+NOM : SMITH John -- 2NDE1
+
+QUESTION  E1.1  E1.2  TOTAL E1
+BAREME     1.0   1.0       2.0
+NOTE       1.0   1.0       2.0
+QUESTION  E2.1  TOTAL E2
+BAREME     0.5       0.5
+NOTE       0.5       0.5
+QUESTION  BONUS
+BAREME      1.0
+NOTE        1.0
+QUESTION  QCM
+BAREME    1.0
+NOTE      0.0
+
+NOTE FINALE : 3.5/3.5
+
+
+ ================================================== 
+
+
+NOM : TEST Student -- 3EME4
+
+QUESTION  E1.1  E1.2  TOTAL E1
+BAREME     1.0  1.00      2.00
+NOTE       0.5  0.25      0.75
+QUESTION    E2.1  TOTAL E2
+BAREME    0.5000    0.5000
+NOTE      0.1125    0.1125
+QUESTION  BONUS
+BAREME      1.0
+NOTE        1.0
+QUESTION  QCM
+BAREME    1.0
+NOTE      0.0
+
+NOTE FINALE : 1.86/3.5
+
+
+ ================================================== 
+
+
+NOM : HENRY Robert -- TLE5
+
+QUESTION  E1.1  E1.2  TOTAL E1
+BAREME     1.0   1.0       2.0
+NOTE       0.0   0.0       0.0
+QUESTION  E2.1  TOTAL E2
+BAREME     0.5       0.5
+NOTE       0.0       0.0
+QUESTION  BONUS
+BAREME      1.0
+NOTE        1.0
+QUESTION  QCM
+BAREME    1.0
+NOTE      0.0
+
+NOTE FINALE : 1.08/3.5
+
+COEFFICIENT PAP : 1.08
+
+
+ ================================================== 
+
+
