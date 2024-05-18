@@ -52,13 +52,6 @@ class Evaluation:
         self.df = pd.read_excel(data_file)
         self.df.rename(columns=lambda col: col.upper(), inplace=True)
 
-        # if "NOM" not in self.df.columns:
-        #     raise ValueError(
-        #         "Missing 'NOM' as first column. Possibly mislabeled.")
-        # if not self.df.at[0, "NOM"].capitalize() in ["Barême", "Bareme"]:
-        #     raise ValueError(
-        #         "Missing 'Barême' as first row. Possibly mislabeled.")
-
         # Data format checks
         try:
             schema.validate(self.df.replace("ABS", 0), lazy=True)
@@ -111,12 +104,7 @@ class Evaluation:
         self.TOTAL_PAP = float(self.TOTAL - self.pap_total)
         if self.glob_total < 0:
             self.glob_total = self.TOTAL
-        # try:
         self.glob_coeff = self.glob_total / self.TOTAL
-        # except ZeroDivisionError as e:
-        #     raise ZeroDivisionError(
-        #         "TOTAL is zero, did you forget to input Barême ?"
-        #     ) from e
 
         # Compute total mark per exercise
         totals_exos = ["TOTAL " + exo for exo in self.exos]
